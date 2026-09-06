@@ -1,0 +1,11 @@
+<nav class="nav">
+  <a class="nav__brand" href="/">رهنگار</a>
+  <svg class="nav__toggler" (click)="onClick()">
+    <use xlink:href="images/sprite.svg#menu"></use>
+  </svg>
+  <ul class="nav__list" [class.hidden]="is_hidden">
+    <li class="nav__item"><a href="#">مورد یک</a></li>
+    <li class="nav__item"><a href="#">مورد دو</a></li>
+    <li class="nav__item"><a href="#">مورد سه</a></li>
+  </ul>
+</nav>
