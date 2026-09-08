@@ -16,6 +16,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "baseHref": "/",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -65,9 +66,14 @@
         "test": {
           "builder": "@angular/build:unit-test"
         },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
-        }
+       "deploy": {
+        "builder": "angular-cli-ghpages:deploy",
+        "options": {
+        "buildTarget": "rahnegar:build:production",
+        "baseHref": "/",
+        "dir": "dist/rahnegar/browser"
+       }
+      }
       }
     }
   }
