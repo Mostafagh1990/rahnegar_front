@@ -7,8 +7,39 @@
     <use xlink:href="images/sprite.svg#menu"></use>
   </svg>
   <ul class="nav__list" [class.hidden]="is_hidden">
-    <li class="nav__item"><a href="#">مورد یک</a></li>
-    <li class="nav__item"><a href="#">مورد دو</a></li>
-    <li class="nav__item"><a href="#">مورد سه</a></li>
+    <li class="nav__item">
+      <a target="" href="#"
+        >آموزش
+        <ul class="nav__submenu">
+          <li><a href="#">نگارش ادبی</a></li>
+          <li><a href="#">ریاضی</a></li>
+          <li><a href="#">آمار</a></li>
+          <li><a href="#">انگلیسی</a></li>
+        </ul>
+      </a>
+    </li>
+    <li class="nav__item">
+      <a href="#"
+        >پژوهش
+        <ul class="nav__submenu">
+          <li><a href="#">روش های تصمیم گیری</a></li>
+          <li><a href="#">پویایی شناسی سیستم</a></li>
+          <li><a href="#">روش های کیفی</a></li>
+        </ul>
+      </a>
+    </li>
+    <li class="nav__item">
+      <a href="#"
+        >پروژه
+        <ul class="nav__submenu">
+          <li><a href="#">عارضه یابی</a></li>
+          <li><a href="#">سنجش نیازهای فناورانه</a></li>
+        </ul>
+      </a>
+    </li>
   </ul>
+  <span class="search-group">
+    <input type="text" class="search" placeholder="..." />
+    <button class="btn">جستجو</button>
+  </span>
 </nav>

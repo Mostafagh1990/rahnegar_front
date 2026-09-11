@@ -1,7 +1,14 @@
 :root{
-    --color-background:#0F172A;
-    --color-front_color:#d2d0db;
-    --color-border:#222;
+    --color-background:#4B9CD3;
+    --color-front_color:#FFFFFF;
+    --color-border:#3E7FB8;
+    --color-submenu-bg: #2E6DA4;
+}
+
+@font-face {
+  font-family: "B_Nazanin";
+  src:
+    url('/fonts/B_Nazanin.TTF')
 }
 
 *, *::after, *::before {
@@ -9,7 +16,7 @@
 }
 
 html {
-    font-family: 'Inter',sans-serif;
+    font-family: 'B_Nazanin',sans-serif;
     font-size: 62.5%;
     direction: rtl;
 }
