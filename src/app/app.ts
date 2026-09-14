@@ -4,10 +4,11 @@ import { Navbar } from './navbar/navbar';
 import { Footer } from './footer/footer';
 import { Hero } from './hero/hero';
 import { Card } from './card/card';
+import { Cowork } from './cowork/cowork';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Navbar,Footer,Hero,Card],
+  imports: [RouterOutlet,Navbar,Footer,Hero,Card,Cowork],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
