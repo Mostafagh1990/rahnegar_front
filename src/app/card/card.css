@@ -3,40 +3,48 @@
 }
 
 .card__heading{
-  font-size: 5rem;
+  font-size: 1.5rem;
 }
 
 .card__par{
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .card__category{
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
-  margin: 1rem;
+  font-size: 0.7rem;
+  margin: 0.2rem;
 }
 
 .card__item{
   border: 1px solid;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 .card__header{
   background-color: var(--color-background);
   position: relative;
   margin: 0;
+  padding-bottom: 0.2rem;
+}
+
+.card__list{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .card__grow{
   display: flex;
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: space-evenly;
+  margin-bottom: 1rem;
 }
 
 .card__grow__item{
   border: 1px solid;
-  width: 300px;
+  font-size: 0.7rem;
 }
 
 .card__number{
@@ -44,13 +52,183 @@
   background-color: green;
   display: inline;
   border: 1px solid;
-  border-radius: 10rem;
+  border-radius: 1rem;
   padding: 0.5rem;
-  top: 7rem;
+  bottom: -1rem;
   left: 0;
 }
 
 .card__header__heading{
   margin: 0;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .card__heading{
+    font-size: 2rem;
+  }
+
+  .card__par{
+    font-size: 1.5rem;
+  }
+
+  .card__category{
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .card__item{
+    padding: 0.8rem;
+    margin: 0.8rem;
+  }
+
+  .card__header{
+    padding-bottom: 0.5rem;
+  }
+
+  .card__list{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .card__grow{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card__grow__item{
+    font-size: 1rem;
+  }
+
+  .card__header__heading{
+    padding-top: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card__heading{
+    font-size: 2.5rem;
+  }
+
+  .card__par{
+    font-size: 2rem;
+  }
+
+  .card__category{
+    font-size: 1.3rem;
+    margin: 0.8rem;
+  }
+
+  .card__item{
+    padding: 1.2rem;
+    margin: 1.2rem;
+  }
+
+  .card__header{
+    padding-bottom: 0.8rem;
+  }
+
+  .card__list{
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+
+  .card__grow{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .card__grow__item{
+    font-size: 1.3rem;
+  }
+
+  .card__header__heading{
+    padding-top: 1.2rem;
+  }  
+
+}
+
+@media screen and (min-width: 1024px) {
+  .card__heading{
+    font-size: 3rem;
+  }
+
+  .card__par{
+    font-size: 2.5rem;
+  }
+
+  .card__category{
+    font-size: 1.7rem;
+    margin: 1.2rem;
+  }
+
+  .card__item{
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .card__header{
+    padding-bottom: 1.2rem;
+  }
+
+  .card__list{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .card__grow{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .card__grow__item{
+    font-size: 1.7rem;
+  }
+
+  .card__header__heading{
+    padding-top: 1.5rem;
+  }  
+
+}
+
+@media screen and (min-width: 1440px) {
+    .card__heading{
+    font-size: 3rem;
+  }
+
+  .card__par{
+    font-size: 2.5rem;
+  }
+
+  .card__category{
+    font-size: 1.7rem;
+    margin: 1.2rem;
+  }
+
+  .card__item{
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .card__header{
+    padding-bottom: 1.2rem;
+  }
+
+  .card__list{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .card__grow{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .card__grow__item{
+    font-size: 1.7rem;
+  }
+
+  .card__header__heading{
+    padding-top: 1.5rem;
+  }  
 }

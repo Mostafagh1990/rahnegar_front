@@ -1,0 +1,148 @@
+.cowork{
+    position: relative;
+}
+
+.cowork__domain{
+    position: absolute;
+    font-size: 0.7rem;
+    top: 1rem;
+    right: 1rem;
+    color: var(--color-front_color);
+}
+
+.cowork__list{
+    padding-right: 1rem;
+    line-height: 1.7;
+}
+
+.cowork__road{
+    position:absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.7rem;
+    color: var(--color-front_color);
+    width: 150px;
+    height: auto;
+}
+
+.cowork__btn{
+    font-size: 0.7rem;
+}
+
+.cowork__heading{
+    text-align: center;
+}
+
+.cowork__improvement{
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: space-evenly;
+}
+
+.cowork__improvement__item{
+    justify-content: center;
+    border: 1px solid;
+    margin: 0.5rem;
+}
+
+.cowork__improvement__item h4{
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .cowork__domain{
+        font-size: 1rem;
+        top: 1.3rem;
+        right: 1.3rem;
+    }
+
+    .cowork__list{
+        padding-right: 1.3rem;
+        line-height: 2;
+    }
+
+    .cowork__road{
+        top: 1.3rem;
+        left: 1.3rem;
+        font-size: 1rem;
+        width: 200px;
+    }
+
+    .cowork__btn{
+        font-size: 1rem;
+    }
+
+    .cowork__improvement{
+        font-size: 1rem;
+    }
+
+    .cowork__improvement__item{
+        margin: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .cowork__domain{
+        font-size: 1.3rem;
+        top: 1.8rem;
+        right: 1.8rem;
+    }
+
+    .cowork__list{
+        padding-right: 1.8rem;
+        line-height: 2.5;
+    }
+
+    .cowork__road{
+        top: 1.8rem;
+        left: 1.8rem;
+        font-size: 1.3rem;
+        width: 300px;
+    }
+
+    .cowork__btn{
+        font-size: 1.3rem;
+    }
+
+    .cowork__improvement{
+        font-size: 1.3rem;
+    }
+
+    .cowork__improvement__item{
+        margin: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+   .cowork__domain{
+        font-size: 1.8rem;
+        top: 2.2rem;
+        right: 2.2rem;
+    }
+
+    .cowork__list{
+        padding-right: 2.2rem;
+        line-height: 3;
+    }
+
+    .cowork__road{
+        top: 2.2rem;
+        left: 2.2rem;
+        font-size: 1.8rem;
+        width: 380px;
+    }
+
+    .cowork__btn{
+        font-size: 1.8rem;
+    }
+
+    .cowork__improvement{
+        font-size: 1.8rem;
+    }
+
+    .cowork__improvement__item{
+        margin: 1.7rem;
+    }
+
+}

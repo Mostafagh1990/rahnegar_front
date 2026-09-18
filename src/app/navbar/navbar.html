@@ -1,11 +1,8 @@
 <nav class="nav">
   <a class="nav__brand" href="/">
-    <img src="images/logo.png" alt="" class="logo" />
+    <img class="nav__logo" src="images/logo.png" alt="" />
   </a>
-  <svg class="nav__toggler" (click)="onClick()">
-    <use xlink:href="images/sprite.svg#menu"></use>
-  </svg>
-  <ul class="nav__list" [class.hidden]="is_hidden">
+  <ul class="nav__list">
     <li class="nav__item">
       <a target="" href="#">خانه</a>
     </li>
@@ -46,8 +43,8 @@
       <a target="" href="#">تماس با ما</a>
     </li>
   </ul>
-  <span class="search-group">
+  <div class="search-group">
     <input type="text" class="search" placeholder="..." />
     <button class="btn">جستجو</button>
-  </span>
+  </div>
 </nav>

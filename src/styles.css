@@ -5,6 +5,10 @@
     --color-submenu-bg: #2E6DA4;
 }
 
+/* * {
+  outline: 1px solid red;
+} */
+
 @font-face {
   font-family: "B_Nazanin";
   src:
@@ -23,6 +27,7 @@ html {
 
 body{
   margin: 0;
+   width: 100%;
 }
 
 a{
@@ -33,7 +38,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 1rem;
 }
 
 .grid {
